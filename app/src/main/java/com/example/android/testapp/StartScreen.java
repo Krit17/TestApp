@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
+
 public class StartScreen extends AppCompatActivity {
 
 Button start;
@@ -16,7 +18,9 @@ Button start;
     }
     void start(View view){
         start = (Button)view;
-        Intent intent = new Intent(StartScreen.this,Log)
+
+        Intent intent = new Intent(StartScreen.this,Form1.class);
+        startActivity(intent);
     }
 
 }
