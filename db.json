@@ -1,9 +1,14 @@
 [
   {
   "location": [
-    { "place": "Gurgaon", "type": "Grocery", "name": "ABC" },
-    { "place": "Gurgaon", "type": "Clothing", "name": "XYZ" },
-    {  "place": "Noida", "type": "Grocery", "name": "RST" }
-      {  "place": "Noida", "type": "Grocery", "name": "UVW" }
+    { "place": "Gurgaon",
+     "values":[ {"type": "Grocery", "name": "ABC" },
+    {"type": "Clothing", "name": "XYZ" }
+      ]},
+    {  "place": "Noida", 
+     "values": [{"type": "Grocery", "name": "RST" },
+      {   "type": "Grocery", "name": "UVW" }
+                ]
+    }
    ]
 }
