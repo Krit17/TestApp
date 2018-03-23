@@ -2,14 +2,17 @@
   {
   "location": [
     { "place": "Gurgaon",
-     "values":[ {"type": "Grocery", "name": "ABC" },
+     "values":[ 
+       {"type": "Grocery", "name": "ABC" },
     {"type": "Clothing", "name": "XYZ" }
-      ]},
+      ]
+    },
     {  "place": "Noida", 
-     "values": [{"type": "Grocery", "name": "RST" },
+     "values": [
+       {"type": "Grocery", "name": "RST" },
       {   "type": "Grocery", "name": "UVW" }
                 ]
     }
    ]
 }
-  ]
+]
