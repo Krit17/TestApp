@@ -1,6 +1,5 @@
 [
-  {
-  "location": [
+   
     { "place": "Gurgaon",
      "values":[ 
        {"type": "Grocery", "name": "ABC" },
@@ -14,5 +13,4 @@
                 ]
     }
    ]
-}
-]
+
